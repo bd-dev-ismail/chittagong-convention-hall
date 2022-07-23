@@ -1,0 +1,27 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+ html, body {
+     font-family: 'Roboto', sans-serif;
+     box-sizing: border-box;
+     overflow-x: hidden;
+ }
+/* Slider  */
+.navbar-brand h2 {
+    font-size: 1.8rem;
+}
+.carousel-caption{
+    margin-bottom: 180px;
+    padding: 0 100px;
+}
+.carousel-caption h5{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.carousel-caption p{
+    font-size: 1.2rem;
+    padding-top: 10px;
+    text-align: center;
+}
+.carousel-dark .carousel-control-prev-icon{
+    color: #fff;
+}
