@@ -6,22 +6,35 @@
      overflow-x: hidden;
  }
 /* Slider  */
+.navbar{
+    margin: 0 50px;
+}
 .navbar-brand h2 {
     font-size: 1.8rem;
 }
-.carousel-caption{
-    margin-bottom: 180px;
-    padding: 0 100px;
+
+.carousel-caption .btn-lg{
+    margin-bottom: 30px;
 }
-.carousel-caption h5{
-    font-size: 3rem;
-    font-weight: 700;
-}
+.carousel-caption h5,
 .carousel-caption p{
-    font-size: 1.2rem;
-    padding-top: 10px;
-    text-align: center;
+    margin: 30px 0;
 }
-.carousel-dark .carousel-control-prev-icon{
-    color: #fff;
+
+@media only screen and (max-width: 768px) and (min-width: 350px){
+    .carousel-item img{
+        height: 500px;
+        object-fit: cover;
+    }
+        .carousel-caption h5,
+        .carousel-caption p {
+            margin: 10px 0;
+        }
+    .navbar-brand h2 {
+            font-size: 1.4rem;
+    }
+    .navbar {
+     margin: 0 0px;
+    }
+    
 }
