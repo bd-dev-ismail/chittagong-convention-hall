@@ -7,7 +7,8 @@
  }
 /* Slider  */
 .section-one,
-.section-two{
+.section-two,
+.pricing{
     margin-bottom: 100px;
 }
 .navbar{
@@ -50,9 +51,50 @@
     padding-right: 10px;
     font-size: 1rem;
 }
+/* Pricing Table  */
+.pricing{
+    background: antiquewhite;
+}
+.bi-check-lg{
+    color: #5243C2;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.price-highlight .bi-check-lg{
+    color: white;
+}
+.check-list-custom li{
+    padding: 5px 0;
+}
+.price-btn .btn{
+    padding: 10px 50px;
+}
+.pricing .pricing-heading{
+    font-size: 42px;
+    padding: 30px 0;
+    margin-bottom: 70px;
+    font-weight: 700;
+}
+.price-controller h2{
+    font-size: 28px;
+}
+.price-highlight{
+    position: relative;
+}
+.hot-price img{
+    width: 30%;
+    position: absolute;
+    top: -65px;
+    right: 0;
+}
+.price-1{
+    margin-bottom: 30px;
+}
+/* Media Queries  */
 @media only screen and (max-width: 768px) and (min-width: 350px){
     .section-one,
-    .section-two {
+    .section-two,
+    .pricing {
         margin-bottom: 60px;
     }
     .carousel-item img{
@@ -76,11 +118,18 @@
         font-size: 1.8rem;
         font-weight: 700;
     }
+    .pricing .pricing-heading{
+        margin-bottom: 20px;
+    }
+    .price-1 {
+        margin-bottom: 30px;
+    }
     
 }
 @media only screen and (max-width: 992px) and (min-width: 769px){
     .section-one,
-    .section-two {
+    .section-two,
+    .pricing {
         margin-bottom: 80px;
     }
     .card-body {
@@ -90,5 +139,6 @@
     font-size: 1.8rem;
     font-weight: 700;
     }
+    
 
 }
