@@ -8,7 +8,9 @@
 /* Slider  */
 .section-one,
 .section-two,
-.pricing{
+.pricing,
+.client,
+.question{
     margin-bottom: 100px;
 }
 .navbar{
@@ -90,11 +92,20 @@
 .price-1{
     margin-bottom: 30px;
 }
+.cllient-info{
+
+}
+/* Question  */
+.card-body{
+    margin: 0 !important;
+}
 /* Media Queries  */
 @media only screen and (max-width: 768px) and (min-width: 350px){
     .section-one,
     .section-two,
-    .pricing {
+    .pricing,
+    .client,
+    .question {
         margin-bottom: 60px;
     }
     .carousel-item img{
@@ -124,12 +135,14 @@
     .price-1 {
         margin-bottom: 30px;
     }
-    
+
 }
 @media only screen and (max-width: 992px) and (min-width: 769px){
     .section-one,
     .section-two,
-    .pricing {
+    .pricing,
+    .client,
+    .question {
         margin-bottom: 80px;
     }
     .card-body {
