@@ -99,6 +99,21 @@
 .card-body{
     margin: 0 !important;
 }
+/* Footer  */
+.custom-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #D9DBE1;
+    padding: 30px 0;
+}
+.footer-app .btn-custom{
+    background-color: black;
+    border: none;
+}
+.footer-area .container-fluid{
+    height: 25vh !important;
+}
 /* Media Queries  */
 @media only screen and (max-width: 768px) and (min-width: 350px){
     .section-one,
@@ -135,6 +150,12 @@
     .price-1 {
         margin-bottom: 30px;
     }
+    .custom-footer{
+        flex-direction: column;
+    }
+    .footer-area .container-fluid {
+    height: 35vh !important;
+        }
 
 }
 @media only screen and (max-width: 992px) and (min-width: 769px){
@@ -151,6 +172,9 @@
     .card-body .card-title{
     font-size: 1.8rem;
     font-weight: 700;
+    }
+    .footer-area .container-fluid{
+        height: 20vh !important;
     }
     
 
